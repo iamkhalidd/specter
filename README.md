@@ -84,7 +84,7 @@ Set API keys in `~/.forensic.yaml` or environment variables:
 
 ## Author
 
-**Khalid** - [GitHub](https://github.com/khalid/specter)
+**Khalid** - [GitHub](https://github.com/iamkhalidd/specter)
 
 ## License
 

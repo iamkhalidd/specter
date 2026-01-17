@@ -42,10 +42,10 @@ full = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/khalid/specter"
-Documentation = "https://github.com/khalid/specter#readme"
-Repository = "https://github.com/khalid/specter"
-Issues = "https://github.com/khalid/specter/issues"
+Homepage = "https://github.com/iamkhalidd/specter"
+Documentation = "https://github.com/iamkhalidd/specter#readme"
+Repository = "https://github.com/iamkhalidd/specter"
+Issues = "https://github.com/iamkhalidd/specter/issues"
 
 [project.scripts]
 specter = "forensic_tool.menu:interactive_mode"

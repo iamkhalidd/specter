@@ -36,7 +36,7 @@ AUTHOR_INFO = """
   [bold cyan]SPECTER[/bold cyan] v{version} | Cross-Platform Forensic Toolkit
 [dim]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/dim]
   [green]Author:[/green]  Khalid
-  [green]GitHub:[/green]  https://github.com/khalid/specter
+  [green]GitHub:[/green]  https://github.com/iamkhalidd/specter
   [green]License:[/green] MIT
 [dim]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/dim]
 """
