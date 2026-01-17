@@ -1,0 +1,21 @@
+# ForensicAutomator - Dependencies
+
+# Core CLI
+typer[all]>=0.9.0
+rich>=13.0.0
+
+# System & Network
+psutil>=5.9.0
+scapy>=2.5.0
+
+# Malware Analysis
+yara-python>=4.3.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Threat Intelligence APIs
+requests>=2.31.0
+
+# Configuration
+pyyaml>=6.0

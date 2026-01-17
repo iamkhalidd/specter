@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specter"
+version = "1.0.0"
+description = "Cross-platform cybersecurity forensic CLI toolkit"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Khalid", email = "khalid@example.com"}
+]
+keywords = ["forensics", "cybersecurity", "malware", "incident-response", "cli", "specter"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: System :: Systems Administration",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]>=0.9.0",
+    "rich>=13.0.0",
+    "psutil>=5.9.0",
+    "requests>=2.31.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+full = [
+    "scapy>=2.5.0",
+    "yara-python>=4.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/khalid/specter"
+Documentation = "https://github.com/khalid/specter#readme"
+Repository = "https://github.com/khalid/specter"
+Issues = "https://github.com/khalid/specter/issues"
+
+[project.scripts]
+specter = "forensic_tool.menu:interactive_mode"
+specter-cli = "forensic_tool.main:app"
+
+[tool.setuptools.packages.find]
+include = ["forensic_tool*"]
